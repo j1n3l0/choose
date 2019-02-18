@@ -21,12 +21,13 @@ Thanks to the miracle of bash tab completion, you don't even need to remember wh
 1. Make sure you have smartcd installed.
 2. Clone this repo
 3. Run these commands:
-
-  make install
-  mkdir -p $HOME/choose/tools
-  mkdir -p $HOME/choose/src
-  load_choose
-  echo '[ -r "$HOME/.choose/load_choose" ] && source ~/.choose/load_choose' >> $HOME/.bashrc
+   ```
+   make install
+   mkdir -p $HOME/choose/tools
+   mkdir -p $HOME/choose/src
+   load_choose
+   echo '[ -r "$HOME/.choose/load_choose" ] && source ~/.choose/load_choose' >> $HOME/.bashrc
+   ```
 
 ## General usage
 
